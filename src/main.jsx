@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App.jsx'
 import './index.css'
 import Movie from './components/Movie.jsx';
-import NotFound from './components/NotFound.jsx';
 
 const router = createBrowserRouter([
   {
@@ -14,11 +13,7 @@ const router = createBrowserRouter([
   {
     path: "/movies/:id",
     element: <Movie />,
-  },
-  {
-    path: "*",
-    element: <NotFound />,
-  },
+  }
 ]);
 
 
