@@ -7,7 +7,7 @@ import Movie from './components/Movie.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/*",
+    path: "/",
     element: <App />,
   },
   {
