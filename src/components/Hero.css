@@ -1,0 +1,44 @@
+.Hero_details{
+    width: 25%;
+    margin-top: 100px;
+}
+
+.Hero_container{
+    width: 90%;
+    margin: 0 auto;
+}
+.Hero{
+    min-height: 500px;
+    background-size: cover;
+    color: white;
+}
+
+.Hero_btn{
+    padding: 6px 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(214, 11, 11);
+}
+
+@media(max-width: 823px){
+ 
+    .Hero_details{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 240px;
+    }
+    .Hero{
+        background-position: center;
+    }
+  }
+  @media(max-width: 460px){
+    .Hero_details{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 160px;
+    }
+    .Hero{
+        background-position: center;
+    }
+}

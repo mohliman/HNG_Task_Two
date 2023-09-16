@@ -1,0 +1,40 @@
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+.icon1
+{
+    width: 40px;
+}
+.icon2
+{
+    width: 30px;
+}
+input{
+    width: 500px;
+    border: 0.5px solid white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+/* Utility classes */
+.flex{
+    display: flex;
+    align-items: center;
+}
+.gap{
+    gap: 15px;
+}
+
+@media(max-width: 823px){
+ 
+  input{
+    display: none;
+  }
+}

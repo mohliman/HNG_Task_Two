@@ -1,0 +1,17 @@
+.movieCard__span{
+    display: block;
+    color: rgb(163, 179, 179);
+    font-size: 13px;
+}
+.img{
+    width: 100%;
+}
+
+.image_div{
+    position: relative;
+}
+.heart{
+    position: absolute;
+    right: 20px;
+    color: red;
+}

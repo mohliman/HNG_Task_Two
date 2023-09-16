@@ -1,0 +1,18 @@
+img{
+    width: 20px;
+}
+.flex{
+    display: flex;
+    gap: 15px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.img_flex{
+    display: flex;
+    gap: 50px;
+}
